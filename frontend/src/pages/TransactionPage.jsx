@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import { GET_TRANSACTION, GET_TRANSACTION_STATISTICS } from "../graphql/queries/transaction.query.js";
 import { UPDATE_TRANSACTION } from "../graphql/mutations/transaction.mutation.js";
 import toast from "react-hot-toast";
-import TransactionFormSkeleton from "../components/skeletons/TransactionFormSkeleton";
+import TransactionFormSkeleton from "../components/Skeletons/TransactionFormSkeleton.jsx";
 
 const TransactionPage = () => {
 	const { id } = useParams();
